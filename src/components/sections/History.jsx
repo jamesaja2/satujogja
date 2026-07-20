@@ -26,20 +26,12 @@ const ModelLoader = () => {
 
 export default function History() {
   const SITES = [
-    {
-      id: 'borobudur',
-      name: 'Candi Borobudur',
-      desc: 'Candi Buddha terbesar di dunia peninggalan Dinasti Syailendra. Memiliki lebih dari 2.600 panel relief dan 504 arca Buddha.',
-      modelUrl: '/models/candi_borobudur.glb',
-      scale: 0.8,
-      yOffset: -2,
-      year: 'Abad ke-8'
-    },
+
     {
       id: 'prambanan',
       name: 'Candi Prambanan',
       desc: 'Mahakarya arsitektur Hindu kuno peninggalan Mataram. Candi utamanya menjulang setinggi 47 meter yang didedikasikan untuk Dewa Siwa.',
-      modelUrl: '/models/candi_prambanan_low_poly.glb',
+      modelUrl: '/models/candi_prambanan_compressed.glb',
       scale: 0.05,
       yOffset: -2,
       year: 'Abad ke-9'
